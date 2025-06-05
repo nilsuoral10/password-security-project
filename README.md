@@ -132,7 +132,7 @@ Bir hata bulduysanız veya öneriniz varsa, lütfen bir sorun açın. Ayrıca pr
 
 - **2320191047** - Nilsu Oral: Proje Geliştirici ve Araştırmacı
   *Project Developer and Researcher*
-- **219*****031** - [İsim Soyisim]: [Rol veya Katkı]
+- **2320191051** - Zehra Kaba: Proje araştırmacısı
   *[Name Surname]: [Role or Contribution]*
 
 *Not: Ekip üyeleri projeye katkıda bulundukça güncellenecektir.*
