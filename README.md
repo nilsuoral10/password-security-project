@@ -1,111 +1,139 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/count/MD/password-security-project?style=flat-square&color=blueviolet" alt="Language Count">
-  <img src="https://img.shields.io/github/languages/top/MD/password-security-project?style=flat-square&color=1e90ff" alt="Top Language">
-  <img src="https://img.shields.io/github/last-commit/MD/password-security-project?style=flat-square&color=ff69b4" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/MD/password-security-project?style=flat-square&color=yellow" alt="License">
-  <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
+  <img src="https://img.shields.io/github/languages/count/MD/password-security-project?style=flat-square&color=blueviolet" alt="Dil Sayısı">
+  <img src="https://img.shields.io/github/languages/top/MD/password-security-project?style=flat-square&color=1e90ff" alt="En Çok Kullanılan Dil">
+  <img src="https://img.shields.io/github/last-commit/MD/password-security-project?style=flat-square&color=ff69b4" alt="Son Güncelleme">
+  <img src="https://img.shields.io/github/license/MD/password-security-project?style=flat-square&color=yellow" alt="Lisans">
+  <img src="https://img.shields.io/badge/Durum-Aktif-green?style=flat-square" alt="Durum">
+  <img src="https://img.shields.io/badge/Katkılar-Hoşgeldiniz-brightgreen?style=flat-square" alt="Katkılar">
 </div>
 
-# Password Security Analysis Project
-*Parola Güvenliği Analiz Projesi*
+# Parola Güvenliği Analiz Projesi
+*Password Security Analysis Project*
 
-A comprehensive research and implementation project covering password security and reverse engineering topics.
-*Parola güvenliği ve tersine mühendislik konularını kapsayan kapsamlı bir araştırma ve uygulama projesi.*
-
----
-
-## Features / *Özellikler*
-
-- **Password Cracking Analysis:** Implementation of various password cracking techniques including brute force, dictionary attacks, and rainbow table attacks.
-  *Parola Kırma Analizi: Brute force, sözlük saldırıları ve rainbow table saldırıları dahil çeşitli parola kırma tekniklerinin implementasyonu.*
-- **Hash Algorithm Analysis:** In-depth analysis of MD5, SHA-1, SHA-256, including salt and pepper usage, hash collisions, and weak implementations.
-  *Hash Algoritma Analizi: MD5, SHA-1, SHA-256'ın derinlemesine analizi, salt ve pepper kullanımı, hash çakışmaları ve zayıf implementasyonlar.*
-- **Reverse Engineering Tools:** Memory dump analysis, static and dynamic analysis, binary file analysis, and security vulnerability detection.
-  *Tersine Mühendislik Araçları: Bellek dökümü analizi, statik ve dinamik analiz, binary dosya analizi ve güvenlik açığı tespiti.*
+Parola güvenliği ve tersine mühendislik konularını kapsayan kapsamlı bir araştırma ve uygulama projesi. Bu proje, güvenlik uzmanları, araştırmacılar ve eğitimciler için değerli bir kaynak olmayı hedeflemektedir.
+*A comprehensive research and implementation project covering password security and reverse engineering topics. This project aims to be a valuable resource for security professionals, researchers, and educators.*
 
 ---
 
-## Project Structure / *Proje Yapısı*
+## Özellikler
+*Features*
+
+- **Parola Kırma Analizi:** Brute force, sözlük saldırıları ve rainbow table saldırıları dahil çeşitli parola kırma tekniklerinin detaylı implementasyonu ve analizi. Sosyal mühendislik tabanlı saldırıların da incelenmesi.
+  *Password Cracking Analysis: Detailed implementation and analysis of various password cracking techniques including brute force, dictionary attacks, and rainbow table attacks.*
+
+- **Hash Algoritma Analizi:** MD5, SHA-1, SHA-256 gibi yaygın hash algoritmalarının derinlemesine analizi. Salt ve pepper kullanımı, hash çakışmaları ve zayıf implementasyonların tespiti ve güvenlik açıklarının belirlenmesi.
+  *Hash Algorithm Analysis: In-depth analysis of common hash algorithms like MD5, SHA-1, SHA-256, including salt and pepper usage, hash collisions, and weak implementations.*
+
+- **Tersine Mühendislik Araçları:** Bellek dökümü analizi, statik ve dinamik analiz, binary dosya analizi ve güvenlik açığı tespiti için gelişmiş araçlar. Güvenlik testleri ve penetrasyon testleri için kullanılabilecek metodolojiler.
+  *Reverse Engineering Tools: Advanced tools for memory dump analysis, static and dynamic analysis, binary file analysis, and security vulnerability detection.*
+
+---
+
+## Proje Yapısı
+*Project Structure*
 
 ```
 ├── src/
-│   ├── password_cracking/    # Password cracking implementations
-│   ├── hash_analysis/        # Hash analysis tools
-│   └── reverse_engineering/  # Reverse engineering tools
-├── research/                 # Research documents
-├── tools/                    # Helper tools and scripts
-├── tests/                    # Test scenarios
-└── docs/                     # Detailed documentation
+│   ├── password_cracking/    # Parola kırma implementasyonları
+│   ├── hash_analysis/        # Hash analiz araçları
+│   └── reverse_engineering/  # Tersine mühendislik araçları
+├── research/                 # Araştırma dokümanları
+├── tools/                    # Yardımcı araçlar ve scriptler
+├── tests/                    # Test senaryoları
+└── docs/                     # Detaylı dokümantasyon
 ```
 
 ---
 
-## Development Environment / *Geliştirme Ortamı*
+## Geliştirme Ortamı
+*Development Environment*
 
-- Python 3.8+
-- Required libraries: See requirements.txt
-- Development tools: IDA Pro, Ghidra, Wireshark (optional)
+- Python 3.8 ve üzeri
+- Gerekli kütüphaneler: requirements.txt dosyasında belirtilmiştir
+- Geliştirme araçları: IDA Pro, Ghidra, Wireshark (isteğe bağlı)
 
 ---
 
-## Installation / *Kurulum*
+## Kurulum
+*Installation*
 
-1. **Clone the Repository / *Depoyu Klonlayın***:  
+1. **Depoyu Klonlayın / *Clone the Repository***:  
    ```bash
    git clone https://github.com/MD/password-security-project.git
    cd password-security-project
    ```
 
-2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
+2. **Sanal Ortam Kurulumu / *Set Up Virtual Environment*** (Önerilen):  
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
+   # Windows için:
+   venv\Scripts\activate
+   # Linux/Mac için:
+   source venv/bin/activate
    ```
 
-3. **Install Dependencies / *Bağımlılıkları Yükleyin***:  
+3. **Bağımlılıkları Yükleyin / *Install Dependencies***:  
    ```bash
    pip install -r requirements.txt
    ```
 
 ---
 
-## Usage / *Kullanım*
+## Kullanım
+*Usage*
 
-This project is intended for educational and research purposes only. The tools and techniques developed should only be used on:
-*Bu proje sadece eğitim ve araştırma amaçlıdır. Geliştirilen araçlar ve teknikler yalnızca:*
+Bu proje sadece eğitim ve araştırma amaçlıdır. Geliştirilen araçlar ve teknikler yalnızca aşağıdaki durumlarda kullanılmalıdır:
+*This project is intended for educational and research purposes only. The tools and techniques developed should only be used in the following cases:*
 
-- Your own systems
-- Authorized test environments
-- Ethical hacking training
-
----
-
-## Contributing / *Katkıda Bulunma*
-
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- Kendi sistemlerinizde
+- İzin verilen test ortamlarında
+- Etik hacking eğitimlerinde
+- Güvenlik araştırmalarında
 
 ---
 
-## License / *Lisans*
+## Katkıda Bulunma
+*Contributing*
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-*Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakınız.*
-
----
-
-## Security Warning / *Güvenlik Uyarısı*
-
-⚠️ This project is for educational and research purposes only. All tools and techniques should be used responsibly and ethically.
-*⚠️ Bu proje sadece eğitim ve araştırma amaçlıdır. Tüm araçlar ve teknikler sorumlu ve etik bir şekilde kullanılmalıdır.*
+1. Bu depoyu fork edin
+2. Yeni bir özellik dalı oluşturun (`git checkout -b ozellik/yeni-ozellik`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`)
+4. Dalınızı push edin (`git push origin ozellik/yeni-ozellik`)
+5. Pull Request oluşturun
 
 ---
 
-## Contact / *İletişim*
+## Lisans
+*License*
 
-Found a bug or have a suggestion? Please open an issue.
-*Bir hata bulduysanız veya öneriniz varsa, lütfen bir sorun açın.* 
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+*This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.*
+
+---
+
+## Güvenlik Uyarısı
+*Security Warning*
+
+⚠️ Bu proje sadece eğitim ve araştırma amaçlıdır. Tüm araçlar ve teknikler sorumlu ve etik bir şekilde kullanılmalıdır. İzinsiz sistemlere erişim veya kötü niyetli kullanım yasalara aykırıdır.
+*⚠️ This project is for educational and research purposes only. All tools and techniques should be used responsibly and ethically. Unauthorized access to systems or malicious use is illegal.*
+
+---
+
+## İletişim
+*Contact*
+
+Bir hata bulduysanız veya öneriniz varsa, lütfen bir sorun açın. Ayrıca projeye katkıda bulunmak isterseniz, yukarıdaki katkıda bulunma adımlarını takip edebilirsiniz.
+*Found a bug or have a suggestion? Please open an issue. If you want to contribute to the project, you can follow the contributing steps above.*
+
+---
+
+## Ekip
+*Team*
+
+- **2320191047** - Nilsu Oral: Proje Geliştirici ve Araştırmacı
+  *Project Developer and Researcher*
+- **219*****031** - [İsim Soyisim]: [Rol veya Katkı]
+  *[Name Surname]: [Role or Contribution]*
+
+*Not: Ekip üyeleri projeye katkıda bulundukça güncellenecektir.*
+*Note: Team members will be updated as they contribute to the project.* 
