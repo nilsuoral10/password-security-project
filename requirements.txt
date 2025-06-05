@@ -1,13 +1,10 @@
 # Temel kütüphaneler
 cryptography>=41.0.0
-hashlib>=20081119
 passlib>=1.7.4
 bcrypt>=4.0.1
 
 # Parola kırma araçları için
 pycryptodome>=3.19.0
-rainbowcrack>=1.8.0
-john>=1.9.0
 
 # Tersine mühendislik araçları için
 capstone>=4.0.2
