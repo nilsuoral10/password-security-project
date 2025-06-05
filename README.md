@@ -1,12 +1,3 @@
-<div align="center">
-  <img src="https://img.shields.io/github/languages/count/MD/password-security-project?style=flat-square&color=blueviolet" alt="Dil Sayısı">
-  <img src="https://img.shields.io/github/languages/top/MD/password-security-project?style=flat-square&color=1e90ff" alt="En Çok Kullanılan Dil">
-  <img src="https://img.shields.io/github/last-commit/MD/password-security-project?style=flat-square&color=ff69b4" alt="Son Güncelleme">
-  <img src="https://img.shields.io/github/license/MD/password-security-project?style=flat-square&color=yellow" alt="Lisans">
-  <img src="https://img.shields.io/badge/Durum-Aktif-green?style=flat-square" alt="Durum">
-  <img src="https://img.shields.io/badge/Katkılar-Hoşgeldiniz-brightgreen?style=flat-square" alt="Katkılar">
-</div>
-
 # Parola Güvenliği Analiz Projesi
 *Password Security Analysis Project*
 
